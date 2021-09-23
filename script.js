@@ -1,5 +1,4 @@
 //Split the text
-window.loaction.href = "fashol.com";
 
 let text = document.querySelector(".text");
 text.innerHTML = text.textContent.replace(/\S/g, "<span>$&</span>");
